@@ -1,0 +1,6 @@
+.product-card{
+    display: inline-block;
+    width: 200px;
+    box-shadow: 1px 1px 1px;
+    float: left;
+}
