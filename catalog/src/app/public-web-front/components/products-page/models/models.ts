@@ -8,3 +8,9 @@ export class ProductModel {
         public picUrl
     ){}    
 }
+
+export class WishListItemModel{
+    constructor(
+        public products: ProductModel[]
+    ) {}
+}
