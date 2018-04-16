@@ -1,0 +1,11 @@
+<div *ngIf="products != undefined">
+  <h4>This are the items in your wish list:</h4>
+  <ul>
+    <li *ngFor="let product of products">
+      {{product.name}}
+    </li>
+  </ul>
+</div>
+<div *ngIf="products == undefined">
+  There are no products in you wish list 
+</div>
